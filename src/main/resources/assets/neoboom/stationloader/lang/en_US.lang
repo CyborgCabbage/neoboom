@@ -1,0 +1,26 @@
+tile.normal_bomb0.name=Bomb
+tile.normal_bomb1.name=Life Bomb
+tile.normal_bomb2.name=Levelling Bomb
+tile.normal_bomb3.name=Star Bomb
+tile.normal_bomb4.name=Cold Bomb
+tile.normal_bomb5.name=Extinguishing Bomb
+tile.normal_bomb6.name=Fire Bomb
+tile.normal_bomb7.name=Magnetic Bomb
+
+tile.compressed_bomb0.name=Compressed Bomb
+tile.compressed_bomb1.name=Compressed Life Bomb
+tile.compressed_bomb2.name=Compressed Levelling Bomb
+tile.compressed_bomb3.name=Compressed Star Bomb
+tile.compressed_bomb4.name=Compressed Cold Bomb
+tile.compressed_bomb5.name=Compressed Extinguishing Bomb
+tile.compressed_bomb6.name=Compressed Fire Bomb
+tile.compressed_bomb7.name=Compressed Magnetic Bomb
+
+tile.nuclear_bomb0.name=Nuclear Bomb
+tile.nuclear_bomb1.name=Nuclear Life Bomb
+tile.nuclear_bomb2.name=Nuclear Levelling Bomb
+tile.nuclear_bomb3.name=Nuclear Star Bomb
+tile.nuclear_bomb4.name=Nuclear Cold Bomb
+tile.nuclear_bomb5.name=Nuclear Extinguishing Bomb
+tile.nuclear_bomb6.name=Nuclear Fire Bomb
+tile.nuclear_bomb7.name=Nuclear Magnetic Bomb

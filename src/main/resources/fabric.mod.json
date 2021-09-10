@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "neoboom",
+  "version": "${version}",
+
+  "name": "Neo-Boom",
+  "description": "A classic explosives mod, just like ma' used to make!",
+  "authors": [
+    "CyborgCabbage"
+  ],
+  "contact": {
+    "homepage": "https://glass-launcher.net/",
+    "sources": "https://github.com/calmilamsy/BIN-fabric-example-mod"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/neoboom/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationmod": [
+      "net.cyborgcabbage.neoboom.NeoBoom"
+    ]
+  },
+  "mixins": [
+    "neoboom.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
