@@ -11,8 +11,7 @@ import net.minecraft.level.Level;
 import net.minecraft.util.io.CompoundTag;
 import net.minecraft.util.maths.MathHelper;
 import net.modificationstation.stationloader.api.server.entity.CustomTracking;
-@EnvironmentInterface(value = EnvType.SERVER, itf = CustomTracking.class)
-public class PrimedBomb extends EntityBase implements CustomTracking {
+public class PrimedBomb extends EntityBase {
     public int fuse;
     public int tileMeta;
     public int blockId;
@@ -98,23 +97,5 @@ public class PrimedBomb extends EntityBase implements CustomTracking {
     @Environment(EnvType.CLIENT)
     public float getEyeHeight() {
         return 0.0F;
-    }
-
-
-    @Override
-    @Environment(EnvType.SERVER)
-    public int getTrackingDistance() {
-        return 100;
-    }
-
-    @Override
-    @Environment(EnvType.SERVER)
-    public int getUpdateFrequency() {
-        return 10;
-    }
-
-    @Override
-    public boolean sendVelocity() {
-        return true;
     }
 }
